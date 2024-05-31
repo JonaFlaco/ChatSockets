@@ -1,0 +1,28 @@
+dependencias
+npm init -y
+
+dependencias Server BACKEND
+
+npm i cors express socket.io morgan
+
+Reiniciar codigo local por si se hace algun cambio
+npm i nodemon -D
+
+administrar contraseñas
+npm install pg bcrypt express-session
+
+
+dependencias FRONTEND
+
+npm create vite (con reac)
+npm i
+npm i socket.io-client
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+Correr proyecto
+npm run dev
+
+Axios
+npm install axios
