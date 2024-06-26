@@ -7,7 +7,7 @@ export default defineConfig({
   server:{
     proxy: {
       '/socket.io': {
-        target: 'http://192.168.3.61:4000',
+        target: 'http://192.168.3.21:4000',
         ws: true
       }
     }
